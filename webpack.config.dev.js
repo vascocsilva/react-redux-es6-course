@@ -3,7 +3,7 @@ import path from 'path';
 
 export default {
   debug: true, // display debug info
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'eval-source-map',
   noInfo: false, // will diplay all the files that it is bundling
   entry: [
     'eventsource-polyfill', // necessary for hot reloading with IE
