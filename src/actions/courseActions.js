@@ -12,6 +12,6 @@ export function loadCourses() {
       dispatch(loadCoursesSuccess(courses));
     }).catch(error => {
       throw(error);
-    })
+    });
   };
 }
