@@ -1,7 +1,7 @@
-import React, { PropTypes } from 'react';
+import React, {PropTypes} from 'react';
 import CourseListRow from './CourseListRow';
 
-const CourseList = ({ courses }) => {
+const CourseList = ({courses}) => {
   return (
     <table className="table">
       <thead>
@@ -12,8 +12,8 @@ const CourseList = ({ courses }) => {
         <th>Length</th>
       </thead>
       <tbody>
-        { courses.map(course =>
-          <CourseListRow key={ course.id } course={ course }/>
+        {courses.map(course =>
+          <CourseListRow key={course.id} course={course}/>
         )}
       </tbody>
     </table>
